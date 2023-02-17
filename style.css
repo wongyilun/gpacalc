@@ -1,0 +1,42 @@
+body {
+    background-color: #FFF5D7;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Indie Flower', cursive;
+    color: #FF6F61;
+  }
+  
+  button, input[type="submit"] {
+    background-color: #FF6F61;
+    color: white;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover, input[type="submit"]:hover {
+    background-color: #FE4365;
+  }
+  
+  a {
+    color: #A8E6CE;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #FF6B6B;
+  }
+  @media only screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }}  
