@@ -1,19 +1,28 @@
 body {
-    background-color: #FFF5D7;
+    background-color: #faf3dd;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
+    color: #5e6472;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Indie Flower', cursive;
-    color: #FF6F61;
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: #5e6472;
+  margin:50px auto 0px;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #aed9e0;
   }
+h6{
+  margin:0 auto 40px;
+}
   
   button, input[type="submit"] {
-    background-color: #FF6F61;
-    color: white;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffa69e;
+    color: #81171b;
+    font-family: 'Comic Sans MS', sans-serif;
     font-size: 1.2rem;
     padding: 0.8rem 1.2rem;
     border-radius: 0.5rem;
@@ -35,6 +44,16 @@ body {
   
   a:hover {
     color: #FF6B6B;
+  }
+
+#calc{
+  background-color:#d7b9d5;
+  color:#432818;
+}
+
+  footer{
+    font-size: x-small;
+    margin-top: 30px;
   }
   @media only screen and (max-width: 600px) {
     .column {
